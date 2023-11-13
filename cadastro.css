@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+header{
+    background: #01B4BC;
+    font-family:"cooper black", fantasy;
+    color: #ffcb29;
+}
+header a{
+    color: #ffcb29;
+    text-decoration: none;
+}
+header a:hover{
+    color: #ffc100;
+}
+header img{
+    position: relative;
+    left: 250px;
+    top:40px;
+}
+header h1{
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 30px;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style:none;
+}
+nav ul li{
+    font-size: 30px;
+    display: inline;
+    padding: 0px 1.3%;
+    position: relative;
+    bottom:20px;
+}
+
+header section{
+    position: relative;
+    left: 440px;
+    bottom: 10px;
+    background: white;
+    border-radius: 40px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header section input{
+    width: 80%;
+    padding: 10px;
+    position: relative;
+    left: 20px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+header a#lupa{
+    color:#1e3050;
+    padding: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+div#log{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid gray;
+    background-color: #caf5f7;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display:flex;
+    justify-content:center;
+    align-items: center;  
+    font-family:"cooper black", fantasy;
+    color: #01B4BC;
+    
+}
+div#log div#log-box{
+    width: 100%;
+    padding: 40px;
+}
+
+div#log-box h2{
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+div#log-box div#ic{
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 30px;
+    border: gray;
+    border-radius: 20px;
+}
+.lembrar-esquecer{
+    font-size: .9em;
+    font-weight: 500;
+    margin: 10px 0 -10px;
+    display: flex;
+    justify-content: space-between;
+}
+.lembrar-esquecer a{
+    color: #06878E;
+    text-decoration: none;
+}
+.lembrar-esquecer a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #01B4BC;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family:"cooper black", fantasy;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    top:20px;
+}
+.registrar{
+    font-size: 0.9em;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.registrar a{
+    color: #06878E;
+    text-decoration: none;
+}
+.registrar a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background: #01B4BC;
+    color: #ffcb29;
+}
+footer h3{
+    font-size: 20px;
+    font-family:"cooper black", fantasy;
+    letter-spacing: 1px;
+}

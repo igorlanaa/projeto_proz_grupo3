@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0cdff7486e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cadastro.css">
     <title>Minha Conta</title>
 </head>
 <body>
@@ -29,7 +29,36 @@
          </section>
     </header>
     <main>
-        <h2>Essa é a página para acessar a conta do usuário/cadastro</h2>
+        <div id="log">
+            <div id="log-box"> 
+                <div id="ic">
+                    <i class="fa-solid fa-paw" style="color: #01b4bc;"></i>
+                </div>
+                <h2>Minha Conta</h2>
+                <form>
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-envelope" style="color: #01b4bc;"></i></span>
+                        <label>Email</label>
+                        <input type="email" required placeholder="Digite seu email" >
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-lock" style="color: #01b4bc;"></i></span>
+                        <label>Senha</label>
+                        <input type="password" required placeholder="Digite sua senha">
+                    </div>
+                    <div class="lembrar-esquecer">
+                        <label><input type="checkbox">Manter conectado</label>
+                        <a href="#">Esqueci a senha</a>
+                    </div>
+                    <button type="submit" class="btn">Entrar</button>
+                    <div class="registrar">
+                        <p>Não tem uma conta?<a href="#" class="link-registro">Registre-se</a></p>
+                    </div>
+                </form>
+            </div>
+           
+        </div>
+
     </main>
     <footer>
         <h3>Fale Conosco</h3>
