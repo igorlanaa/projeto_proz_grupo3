@@ -68,6 +68,75 @@ header a#lupa{
     padding: 20px;
 }
 
+main .barra-info{
+    display: flex;
+    justify-content: space-around;
+}
+main .info{
+    width: 20%;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 40px;
+}
+main .icon{
+    position: relative;
+    top: 30px;
+    left: 15px;
+    width: 20%;
+}
+
+main .info-text{
+    text-align: center;
+    font-family:"cooper black", fantasy;
+    color: #01B4BC;
+}
+main .mini-info{
+    position: relative;
+    left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    width: 50%;
+}
+
+main .promocoes{
+    display: flex;
+    justify-content:space-around;
+}
+main .promo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #01B4BC;
+    border-radius: 50px;
+    width: 30%;
+    align-items: center;
+}
+main .promo-texto h1{
+    font-family:"cooper black", fantasy;
+    color: #ffc100;
+}
+main .promo-texto h4{
+    font-family:"cooper black", fantasy;
+    text-decoration-line: line-through;
+}
+main .promo-texto h2{
+    font-family:"cooper black", fantasy;
+    color: white;
+}
+
+main .sessao{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    font-family:"cooper black", fantasy;
+    color:#01B4BC;
+}
+
+
+
+
+
 
 footer{
     background-color: #01B4BC;
