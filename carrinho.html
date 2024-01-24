@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./CSS/carrinho.css">
     <title>Meu Carrinho</title>
 </head>
+
 <body>
     <header>
         <img src="./imagens/logo_fundo_removido.png" alt="Logotipo do Reino das Patinhas" style="width:100px;height:70px;">
@@ -26,29 +28,48 @@
             <a href="#" id="lupa">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </a>
-         </section>  
+        </section>
     </header>
+
     <main>
-        <h2>Essa é a página do carrinho de produtos</h2>
+        <div class="produto">
+            <h3>Produto 1</h3>
+            <p>Preço: R$ 10.00</p>
+        </div>
+
+        <div class="produto">
+            <h3>Produto 2</h3>
+            <p>Preço: R$ 20.00</p>
+        </div>
     </main>
+
+    <div id="carrinho" style="display: none;">
+        <h2>Carrinho</h2>
+        <ul id="carrinhoLista"></ul>
+        <button id="irParaPagamento">Ir para Pagamento</button>
+    </div>
+
     <footer>
         <div class="container">
-        <section>
-            <h3 class="left">Fale Conosco</h3>
-            <ul class="left">
-            <li>(xx)xxxx-xxxx</li>
-            <li>reinodaspatinhas@gmail.com</li>
-            </ul>
-        </section>
-        <section>
-            <h3 class="right">Visite nossas redes sociais</h3>
-            <ul class="right">
-            <li>Facebook</li>
-            <li>Instagram</li>
-            </ul>
-        </section>
+            <section>
+                <h3 class="left">Fale Conosco</h3>
+                <ul class="left">
+                    <li>(xx)xxxx-xxxx</li>
+                    <li>reinodaspatinhas@gmail.com</li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="right">Visite nossas redes sociais</h3>
+                <ul class="right">
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                </ul>
+            </section>
         </div>
         <p>&copy; 2023 Reino das Patinhas. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="./JS/carrinho.js"></script>
 </body>
+
 </html>
